@@ -15,19 +15,19 @@ If you are reporting a bug, please include:
 
 ### Fix Bugs
 
-Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
-wanted" is open to whoever wants to implement it.
+Look through the GitHub issues for bugs. Anything labeled as a bug is open to whoever wants to implement it.
 
 ### Implement Features
 
-Look through the GitHub issues for features. Anything tagged with "enhancement"
-and "help wanted" is open to whoever wants to implement it.
+Look through the GitHub issues for relevant features. If there relevant improvements to a feature, this is open to whoevver wants to implement it.
+If there are additional features that have potential to be included, this is also open to whoever wants to implement this.
+Please follow appropriate code quality guidelines.
 
 ### Write Documentation
 
 You can never have enough documentation! Please feel free to contribute to any
 part of the documentation, such as the official docs, docstrings, or even 
-on the web in blog posts, articles, and such.
+on the web in blog posts, articles, and such. Please include documentation for any features that you include.
 
 ### Submit Feedback
 
@@ -36,7 +36,7 @@ If you are proposing a feature:
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible, to make it easier to implement.
 * Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+  are welcome and encouraged.
 
 ## Get Started!
 
@@ -70,4 +70,5 @@ Before you submit a pull request, check that it meets these guidelines:
 ## Code of Conduct
 
 Please note that the `textfeatureinfo` project is released with a 
-Code of Conduct. By contributing to this project you agree to abide by its terms.
+Code of Conduct. By contributing to this project you agree to abide by its terms. Failure to follow the Code of Conduct is actionable and the project team will 
+respond in a way that is appropriate for the circumstance.
