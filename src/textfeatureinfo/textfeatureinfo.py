@@ -1,12 +1,29 @@
 
 # Count number of punctuations
+def count_punc(text):
+    """
+    Counts the number of punctuations within the text.
+    
+    Parameters:
+    ___________
+    text: (str)
+    piece of text to analyze
 
+    Returns:
+    ___________
+    
+    Integer
+    the number of punctuations
+    
 
-
-
-
-
-
+    Examples
+    ________
+    >>> count_punc("Hello, World!")
+    2
+    >>> count_punc("Hello World")
+    0
+    """
+    
 
 
 
