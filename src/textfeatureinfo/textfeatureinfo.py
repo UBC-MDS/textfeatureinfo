@@ -8,7 +8,7 @@
 
 
 
-
+# Average count length
 def avg_word_len(text):
     """
     Calculates the average length of the words within the text.
@@ -36,7 +36,7 @@ def avg_word_len(text):
 
 
 
-# Average count length
+
 
 
 
