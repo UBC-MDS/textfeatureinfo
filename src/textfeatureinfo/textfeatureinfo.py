@@ -81,3 +81,21 @@ def perc_cap_words(text):
 
 
 # Remove stopwords
+def remove_stop_words(text, language="english"):
+    """
+    Removes stop words from the text and returns the list of clear words in the text.
+
+    Parameters:
+    ------
+    text (str): The text that you want to remove stop words from.
+    language (str, optional): The language of the text. Defaults to 'english'.
+
+    Returns:
+    ------
+    list: The list of the words in the text that are not stop words.
+
+    Examples:
+    ------
+    >>> remove_stop_words("Tomorrow is a big day!")
+    ['tomorrow', 'big', 'day!']
+    """
