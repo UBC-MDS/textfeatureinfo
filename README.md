@@ -9,8 +9,8 @@ Our package and functions are inspired from a lab in the course, DSCI 573 (Featu
 
 ## **Function Details**
 ___
-
-- `avg_word_len`: This function will calculate calculate and return the average length of words within a given text.
+- `count_punc`: This function will count and return the number of punctuations within a given text.
+- `avg_word_len`: This function will calculate and return the average length of words within a given text.
 
 ## **Python Ecosystem**
 ___
