@@ -1,4 +1,3 @@
-
 # Count number of punctuations
 def count_punc(text):
     """
@@ -24,16 +23,6 @@ def count_punc(text):
     0
     """
     
-
-
-
-
-
-
-
-
-
-
 # Average count length
 def avg_word_len(text):
     """
@@ -53,15 +42,6 @@ def avg_word_len(text):
     >>> avg_word_len("Hello, World!")
     """
 
-
-
-
-
-
-
-
-
-
 # Count percentage of fully capitalised words
 def perc_cap_words(text):
     """
@@ -76,9 +56,6 @@ def perc_cap_words(text):
     -------
     percentage of capitalised words: float
     """
-
-
-
 
 # Remove stopwords
 def remove_stop_words(text, language="english"):
