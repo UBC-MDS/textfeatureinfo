@@ -1,4 +1,13 @@
 
+# Count number of punctuations
+
+
+
+
+
+
+
+
 
 
 
@@ -26,16 +35,6 @@ def avg_word_len(text):
     ________
     >>> avg_word_len("Hello, World!")
     """
-# Count number of punctuations
-
-
-
-
-
-
-
-
-
 
 
 
