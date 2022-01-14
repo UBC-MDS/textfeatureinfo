@@ -55,6 +55,13 @@ def perc_cap_words(text):
     Returns:
     -------
     percentage of capitalised words: float
+    
+    Examples:
+    ------
+    >>> perc_cap_words("THIS is a SPAm MESSage.")
+    1
+    >>> perc_cap_words("THIS is a SPAM MESSAGE.")
+    3
     """
 
 # Remove stopwords
