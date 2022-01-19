@@ -1,4 +1,5 @@
 import pytest
+from textfeatureinfo.textfeatureinfo import count_punc
 
 def test_count_punc():
     """
