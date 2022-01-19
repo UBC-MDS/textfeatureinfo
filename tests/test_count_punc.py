@@ -8,10 +8,10 @@ def test_count_punc():
     3 tests in total.
     """   
     s = "\"['TEXT']\""
-    s2 = '{}|\,";'
+    s2 = '{}|,";'
     s3 = ''
     assert count_punc(s) == 6, "Should be 6"
-    assert count_punc(s2) == 7, "Should be 7"
+    assert count_punc(s2) == 6, "Should be 6"
     assert count_punc(s3) == 0, "Should be 0"
 
 
