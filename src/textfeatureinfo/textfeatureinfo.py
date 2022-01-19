@@ -20,6 +20,13 @@ def count_punc(text):
     >>> count_punc("Hello World")
     0
     """
+    if not isinstance(s, str): 
+        raise TypeError("Please enter a 'str' type.")
+    count = 0
+    for ch in s:
+        if ch in punctuation:
+            count += 1
+    return count
     
 # Average word length
 def avg_word_len(text):
