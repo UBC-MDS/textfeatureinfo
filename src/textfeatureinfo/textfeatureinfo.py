@@ -29,7 +29,7 @@ def count_punc(text):
     return count
     
 # Average word length
-def avg_word_len(text):
+# def avg_word_len(text):
     """
     Calculate the average length of the words within the text.
 
@@ -50,7 +50,7 @@ def avg_word_len(text):
     """
 
 # Count percentage of fully capitalised words
-def perc_cap_words(text):
+# def perc_cap_words(text):
     """
     Calculate percentage of fully capitalised words in the text.
 
@@ -73,7 +73,7 @@ def perc_cap_words(text):
     """
 
 # Remove stopwords
-def remove_stop_words(text, language="english"):
+# def remove_stop_words(text, language="english"):
     """
     Remove stop words from the text and return the list of clear words in the text.
 
