@@ -96,9 +96,9 @@ def perc_cap_words(text):
     Examples
     --------
     >>> perc_cap_words("THIS is a SPAm MESSage.")
-    20%
+    20
     >>> perc_cap_words("THIS is a SPAM MESSAGE.")
-    60%
+    60
     """
     if text == " " or text == "":
         raise TypeError("Please provide a non-empty text!")
@@ -112,7 +112,7 @@ def perc_cap_words(text):
         if word.isupper():
             count_cap_words += 1
     
-    print(f"{count_cap_words / len(tokenizer.tokenize(text)) * 100}%")
+    return (count_cap_words / len(tokenizer.tokenize(text)) * 100)
 
 # Remove stopwords
 def remove_stop_words(text, language="english"):
