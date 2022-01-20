@@ -51,6 +51,29 @@ def avg_word_len(text):
     >>> avg_word_len("Hello, World!")
     5
     """
+    if not isinstance(text, str):
+        raise TypeError("'text' should be of type 'String'")
+    
+    try:
+        from string import punctuation
+    except ImportError:
+        raise ImportError("punctuation from string module failed to import")
+    
+    new_text = ""
+    for char in text:
+        if char not in punctuation:
+            new_text = new_text + char
+        else:
+            new_text = new_text + " "
+    
+    word_len = [len(word) for word in new_text.split()]
+
+    if len(word_len) == 0:
+        average_len = 0
+    else:
+        average_len = sum(word_len) / len(word_len)
+    
+    return average_len
 
 # Count percentage of fully capitalised words
 def perc_cap_words(text):
@@ -115,3 +138,4 @@ def remove_stop_words(text, language="english"):
             clean_words.append(word)
     
     return clean_words
+  
