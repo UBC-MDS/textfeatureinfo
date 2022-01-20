@@ -1,4 +1,3 @@
-from turtle import textinput
 from nltk.corpus import stopwords
 from string import punctuation
 
