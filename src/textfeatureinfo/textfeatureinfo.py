@@ -1,4 +1,7 @@
+from turtle import textinput
 from nltk.corpus import stopwords
+from string import punctuation
+
 # Count number of punctuations
 def count_punc(text):
     """
@@ -21,10 +24,10 @@ def count_punc(text):
     >>> count_punc("Hello World")
     0
     """
-    if not isinstance(s, str): 
+    if not isinstance(text, str): 
         raise TypeError("Please enter a 'str' type.")
     count = 0
-    for ch in s:
+    for ch in text:
         if ch in punctuation:
             count += 1
     return count
