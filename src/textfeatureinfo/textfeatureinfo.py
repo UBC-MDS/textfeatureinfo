@@ -112,7 +112,7 @@ def perc_cap_words(text):
         if word.isupper():
             count_cap_words += 1
     
-    print(f"{count_cap_words / len(tokenizer.tokenize(text))}%")
+    print(f"{count_cap_words / len(tokenizer.tokenize(text)) * 100}%")
 
 # Remove stopwords
 def remove_stop_words(text, language="english"):
