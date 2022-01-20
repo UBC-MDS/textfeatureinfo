@@ -1,3 +1,6 @@
+from nltk.corpus import stopwords
+from string import punctuation
+
 # Count number of punctuations
 def count_punc(text):
     """
@@ -20,10 +23,10 @@ def count_punc(text):
     >>> count_punc("Hello World")
     0
     """
-    if not isinstance(s, str): 
+    if not isinstance(text, str): 
         raise TypeError("Please enter a 'str' type.")
     count = 0
-    for ch in s:
+    for ch in text:
         if ch in punctuation:
             count += 1
     return count
@@ -94,3 +97,21 @@ def remove_stop_words(text, language="english"):
     >>> remove_stop_words("Tomorrow is a big day!")
     ['tomorrow', 'big', 'day!']
     """
+    if text == " " or text == "":
+        raise TypeError("Please provide a non-empty text!")
+    
+    if language not in stopwords.fileids():
+        raise TypeError("Please provide a valid language!")
+    
+    if not isinstance(text, str):
+        raise TypeError("Please provide a valid text of type string!")
+    
+    stop_words = set(stopwords.words(language))   # Create set of stop words to increase the efficiency of searching elements
+    words = text.lower().split(" ")               # Create list of the words in the text
+    clean_words = []                              # Create an empty list to store the words that are not in the stop words
+
+    for word in words:
+        if word not in stop_words:
+            clean_words.append(word)
+    
+    return clean_words
