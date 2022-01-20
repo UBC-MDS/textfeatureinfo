@@ -1,4 +1,6 @@
 from textfeatureinfo.textfeatureinfo import remove_stop_words
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords  
 import pytest
 
