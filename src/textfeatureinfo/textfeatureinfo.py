@@ -2,6 +2,7 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from string import punctuation
+from nltk.tokenize import RegexpTokenizer
 
 # Count number of punctuations
 def count_punc(text):
@@ -99,6 +100,19 @@ def perc_cap_words(text):
     >>> perc_cap_words("THIS is a SPAM MESSAGE.")
     60%
     """
+    if text == " " or text == "":
+        raise TypeError("Please provide a non-empty text!")
+    if not isinstance(text, str):
+        raise TypeError("'text' should be of type 'String'")
+
+    tokenizer = RegexpTokenizer(r'\w+')
+    count_cap_words = 0
+    words = text.split(' ')
+    for word in words:
+        if word.isupper():
+            count_cap_words += 1
+    
+    print(f"{count_cap_words / len(tokenizer.tokenize(text))}%")
 
 # Remove stopwords
 def remove_stop_words(text, language="english"):
