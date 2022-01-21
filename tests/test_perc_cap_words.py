@@ -1,4 +1,6 @@
 import pytest
+import nltk
+from nltk.tokenize import RegexpTokenizer
 from textfeatureinfo.textfeatureinfo import perc_cap_words
 
 def test_perc_cap_words():
