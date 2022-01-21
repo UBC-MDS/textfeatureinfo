@@ -2,6 +2,8 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from string import punctuation
+nltk.download('RegexpTokenizer')
+from nltk.tokenize import RegexpTokenizer
 
 # Count number of punctuations
 def count_punc(text):
@@ -95,10 +97,23 @@ def perc_cap_words(text):
     Examples
     --------
     >>> perc_cap_words("THIS is a SPAm MESSage.")
-    20%
+    20
     >>> perc_cap_words("THIS is a SPAM MESSAGE.")
-    60%
+    60
     """
+    if text == " " or text == "":
+        raise TypeError("Please provide a non-empty text!")
+    if not isinstance(text, str):
+        raise TypeError("'text' should be of type 'String'")
+
+    tokenizer = RegexpTokenizer(r'\w+')                # Tokenizer created to select word character and ignores punctuations and numbers
+    count_cap_words = 0                                # Initialises the count for the number of capitalised words
+    words = text.split(' ')                            # Splits the string based on spaces
+    for word in words:
+        if word.isupper():
+            count_cap_words += 1                       # Adds one to the count if the entire word is uppercase
+    
+    return (count_cap_words / len(tokenizer.tokenize(text)) * 100)
 
 # Remove stopwords
 def remove_stop_words(text, language="english"):
