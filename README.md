@@ -21,7 +21,7 @@ In the field of text feature engineering, we are cognisant that there are well e
 Based on our experience in our previous module, all the functions that we seek to use require several lines of code. For example, to calculate the average word length, we need to extract the punctuation, count total number of characters, then averaging out over the number of words present. As such, we seek to simplify these tasks into functions that users, including ourselves, can employ in one line of code. 
 
 
-## Installation
+## Installation (Not available yet)
 
 ```bash
 $ pip install textfeatureinfo
@@ -29,7 +29,43 @@ $ pip install textfeatureinfo
 
 ## Usage
 
-- TODO
+In order to install the package at this point, please go through the following steps at your terminal:
+
+1. Create a new conda environment:
+
+```bash
+conda create --name textfeatureinfo python=3.9 -y
+```
+
+2. Activate the conda environment:
+
+```bash
+conda activate textfeatureinfo
+```
+
+3. Install the package via Github:
+
+```bash
+pip install git+https://github.com/UBC-MDS/textfeatureinfo
+```
+
+4. Open Python:
+
+```bash
+python
+```
+
+5. In the Python prompt type the following:
+
+```bash
+>>> from textfeatureinfo import textfeatureinfo
+>>> from textfeatureinfo.textfeatureinfo import count_punc
+>>> from textfeatureinfo.textfeatureinfo import avg_word_len
+>>> from textfeatureinfo.textfeatureinfo import perc_cap_words
+>>> from textfeatureinfo.textfeatureinfo import remove_stop_words
+```
+
+Now you can use the functions.
 
 ## Contributing
 
