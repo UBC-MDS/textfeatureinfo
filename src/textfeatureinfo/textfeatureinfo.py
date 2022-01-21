@@ -2,6 +2,7 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from string import punctuation
+nltk.download('RegexpTokenizer')
 from nltk.tokenize import RegexpTokenizer
 
 # Count number of punctuations
