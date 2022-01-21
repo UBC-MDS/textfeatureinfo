@@ -105,12 +105,12 @@ def perc_cap_words(text):
     if not isinstance(text, str):
         raise TypeError("'text' should be of type 'String'")
 
-    tokenizer = RegexpTokenizer(r'\w+')
-    count_cap_words = 0
-    words = text.split(' ')
+    tokenizer = RegexpTokenizer(r'\w+')                # Tokenizer created to select word character and ignores punctuations and numbers
+    count_cap_words = 0                                # Initialises the count for the number of capitalised words
+    words = text.split(' ')                            # Splits the string based on spaces
     for word in words:
         if word.isupper():
-            count_cap_words += 1
+            count_cap_words += 1                       # Adds one to the count if the entire word is uppercase
     
     return (count_cap_words / len(tokenizer.tokenize(text)) * 100)
 
