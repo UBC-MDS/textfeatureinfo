@@ -10,9 +10,9 @@ def test_count_punc():
     s = "\"['TEXT']\""
     s2 = '{}|,";'
     s3 = ''
-    assert count_punc(s) == 6, "Should be 6"
-    assert count_punc(s2) == 6, "Should be 6"
-    assert count_punc(s3) == 0, "Should be 0"
+    assert count_punc(s) == 6, "Output should be 6"
+    assert count_punc(s2) == 6, "Output should be 6"
+    assert count_punc(s3) == 0, "Output should be 0"
 
 
 def test_count_punc_error():  

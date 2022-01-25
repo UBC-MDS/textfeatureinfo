@@ -27,7 +27,7 @@ def count_punc(text):
     0
     """
     if not isinstance(text, str): 
-        raise TypeError("Please enter a 'str' type.")
+        raise TypeError("'text' should be of type 'String'")
     count = 0
     for ch in text:
         if ch in punctuation:
@@ -101,7 +101,7 @@ def perc_cap_words(text):
     60
     """
     if text == " " or text == "":
-        raise TypeError("Please provide a non-empty text!")
+        raise TypeError("'text' should not be empty!")
     if not isinstance(text, str):
         raise TypeError("'text' should be of type 'String'")
 
@@ -137,13 +137,13 @@ def remove_stop_words(text, language="english"):
     ['tomorrow', 'big', 'day!']
     """
     if text == " " or text == "":
-        raise TypeError("Please provide a non-empty text!")
+        raise TypeError("'text' should not be empty!")
     
     if language not in stopwords.fileids():
         raise TypeError("Please provide a valid language!")
     
     if not isinstance(text, str):
-        raise TypeError("Please provide a valid text of type string!")
+        raise TypeError("'text' should be of type 'String'")
     
     stop_words = set(stopwords.words(language))   # Create set of stop words to increase the efficiency of searching elements
     words = text.lower().split(" ")               # Create list of the words in the text
