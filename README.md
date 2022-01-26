@@ -1,8 +1,6 @@
 # textfeatureinfo
 
-[![Documentation Status](https://readthedocs.org/projects/textfeatureinfo/badge/?version=latest)](https://textfeatureinfo.readthedocs.io/en/latest/?badge=latest)
-
-
+[![Documentation Status](https://readthedocs.org/projects/textfeatureinfo/badge/?version=latest)](https://textfeatureinfo.readthedocs.io/en/latest/?badge=latest) 
 [![ci-cd](https://github.com/UBC-MDS/textfeatureinfo/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/textfeatureinfo/actions/workflows/ci-cd.yml)
 
 
