@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.5 (2022-01-27)
+### Fix
+* Removed the code cov job ([`29d0767`](https://github.com/UBC-MDS/textfeatureinfo/commit/29d0767cf2562035e0040c3e0253b36701a5328c))
+
 ## v0.2.4 (2022-01-27)
 ### Fix
 * Added the codcov badge ([`2063421`](https://github.com/UBC-MDS/textfeatureinfo/commit/2063421bdd86bde32349834a78d095f0a73f0648))
