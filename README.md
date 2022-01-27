@@ -33,7 +33,7 @@ $ pip install textfeatureinfo
 
 ## Usage
 
-In order to install the package at this point, please go through the following steps at your terminal:
+In order to use the package please go through the following steps:
 
 1. Create a new conda environment:
 
