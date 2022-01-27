@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.4 (2022-01-27)
+### Fix
+* Added the codcov badge ([`2063421`](https://github.com/UBC-MDS/textfeatureinfo/commit/2063421bdd86bde32349834a78d095f0a73f0648))
+* Updated the usage in readme to check actions ([`45d05c0`](https://github.com/UBC-MDS/textfeatureinfo/commit/45d05c066c450511320853132f4f98f2e75c496e))
+
 ## v0.2.3 (2022-01-27)
 ### Fix
 * Updated the usage in readme ([`6ba4f34`](https://github.com/UBC-MDS/textfeatureinfo/commit/6ba4f34c6f9a1fc9089a4d7dfa6799577efb14f8))
