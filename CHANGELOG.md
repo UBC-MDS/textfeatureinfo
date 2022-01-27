@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.3 (2022-01-27)
+### Fix
+* Updated the usage in readme ([`6ba4f34`](https://github.com/UBC-MDS/textfeatureinfo/commit/6ba4f34c6f9a1fc9089a4d7dfa6799577efb14f8))
+
 ## v0.2.2 (2022-01-27)
 ### Fix
 * Added codecov to the workflow ([`675c894`](https://github.com/UBC-MDS/textfeatureinfo/commit/675c8942ae0734b00c2d164e4768f11a877a896e))
