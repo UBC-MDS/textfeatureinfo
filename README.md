@@ -47,10 +47,10 @@ conda create --name textfeatureinfo python=3.9 -y
 conda activate textfeatureinfo
 ```
 
-3. Install the package via Github:
+3. Install the package:
 
 ```bash
-pip install git+https://github.com/UBC-MDS/textfeatureinfo
+pip install textfeatureinfo
 ```
 
 4. Open Python:
