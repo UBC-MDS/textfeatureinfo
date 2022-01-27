@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2022-01-27)
+### Fix
+* Updated the installation in readme ([`0946aec`](https://github.com/UBC-MDS/textfeatureinfo/commit/0946aec5aec747cd52632495b76b6330c0edc796))
+
 ## v0.2.0 (2022-01-27)
 ### Feature
 * Add function tests and body of function ([`dfa27f3`](https://github.com/UBC-MDS/textfeatureinfo/commit/dfa27f35bf48914afa4b74ad4e54fb2d48313741))
