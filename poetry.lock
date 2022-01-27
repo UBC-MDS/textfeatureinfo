@@ -1202,10 +1202,6 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 py = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
-name = "readme-renderer"
-version = "32.0"
-description = "readme_renderer is a library for rendering \"readme\" descriptions for Warehouse"
-category = "dev"
 name = "qtconsole"
 version = "5.2.2"
 description = "Jupyter Qt console"
