@@ -25,7 +25,7 @@ In the field of text feature engineering, we are cognisant that there are well e
 Based on our experience in our previous module, all the functions that we seek to use require several lines of code. For example, to calculate the average word length, we need to extract the punctuation, count total number of characters, then averaging out over the number of words present. As such, we seek to simplify these tasks into functions that users, including ourselves, can employ in one line of code. 
 
 
-## Installation (Not available yet)
+## Installation
 
 ```bash
 $ pip install textfeatureinfo
