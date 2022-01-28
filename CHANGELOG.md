@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.6 (2022-01-28)
+### Fix
+* Added function usages to readme.md ([`3cbffc4`](https://github.com/UBC-MDS/textfeatureinfo/commit/3cbffc4b70abfe0554cf9eb4e3fab08a664b2419))
+
 ## v0.2.5 (2022-01-27)
 ### Fix
 * Removed the code cov job ([`29d0767`](https://github.com/UBC-MDS/textfeatureinfo/commit/29d0767cf2562035e0040c3e0253b36701a5328c))
