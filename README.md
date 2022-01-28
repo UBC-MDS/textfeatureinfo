@@ -60,7 +60,7 @@ pip install textfeatureinfo
 python
 ```
 
-5. In the Python prompt type the following:
+5. In the Python prompt type the followings to import all the functions:
 
 ```bash
 >>> from textfeatureinfo import textfeatureinfo
@@ -70,7 +70,14 @@ python
 >>> from textfeatureinfo.textfeatureinfo import remove_stop_words
 ```
 
-Now you can use the functions.
+6. You can use the functions as below:
+
+```bash
+>>> count_punc("Hello, World!")
+>>> avg_word_len("Hello, World!")
+>>> perc_cap_words("THIS is a SPAm MESSage.")
+>>> remove_stop_words("Tomorrow is a big day!")
+```
 
 ## Contributing
 
