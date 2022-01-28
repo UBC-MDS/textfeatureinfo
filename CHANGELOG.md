@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.7 (2022-01-28)
+### Fix
+* Removed the numbers from usage ([`d81d8ae`](https://github.com/UBC-MDS/textfeatureinfo/commit/d81d8aed44a0b95c61fabb057f9d1f7d7a073192))
+
 ## v0.2.6 (2022-01-28)
 ### Fix
 * Added function usages to readme.md ([`3cbffc4`](https://github.com/UBC-MDS/textfeatureinfo/commit/3cbffc4b70abfe0554cf9eb4e3fab08a664b2419))
