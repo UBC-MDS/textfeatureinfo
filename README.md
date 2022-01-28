@@ -7,7 +7,6 @@
 
 ## **Description**
 
-
 In Natural Language Processing, it is common for users to try and engineer their own features from a given text. It can be difficult to extract certain features from text without using additional Python tools. This python package includes functions that allows data scientists to extract information from text features which can be useful for feature engineering, or in other data science projects. Our package, textfeatureinfo, will help gather summary information from plain text such as the number of punctuations in the text, the average word lengths and the percentage of fully capitalised words which can be useful information for feature engineering. Additionally, our package can also manipulate text data by removing the stopwords for the ease of future processing steps. 
 
 Our package and functions are inspired from a lab in the course, DSCI 573 (Feature and model selection), of UBC MDS program, and are tailored based on our own experience and interest. 
@@ -25,7 +24,6 @@ In the field of text feature engineering, we are cognisant that there are well e
 
 Based on our experience in our previous module, all the functions that we seek to use require several lines of code. For example, to calculate the average word length, we need to extract the punctuation, count total number of characters, then averaging out over the number of words present. As such, we seek to simplify these tasks into functions that users, including ourselves, can employ in one line of code. 
 
-
 ## Installation
 
 ```bash
@@ -36,47 +34,47 @@ $ pip install textfeatureinfo
 
 In order to use the package please go through the following steps:
 
-1. Create a new conda environment:
+- Create a new conda environment:
 
 ```bash
 conda create --name textfeatureinfo python=3.9 -y
 ```
 
-2. Activate the conda environment:
+- Activate the conda environment:
 
 ```bash
 conda activate textfeatureinfo
 ```
 
-3. Install the package:
+- Install the package:
 
 ```bash
 pip install textfeatureinfo
 ```
 
-4. Open Python:
+- Open Python:
 
 ```bash
 python
 ```
 
-5. In the Python prompt type the followings to import all the functions:
+- In the Python prompt type the followings to import all the functions:
 
 ```bash
->>> from textfeatureinfo import textfeatureinfo
->>> from textfeatureinfo.textfeatureinfo import count_punc
->>> from textfeatureinfo.textfeatureinfo import avg_word_len
->>> from textfeatureinfo.textfeatureinfo import perc_cap_words
->>> from textfeatureinfo.textfeatureinfo import remove_stop_words
+from textfeatureinfo import textfeatureinfo
+from textfeatureinfo.textfeatureinfo import count_punc
+from textfeatureinfo.textfeatureinfo import avg_word_len
+from textfeatureinfo.textfeatureinfo import perc_cap_words
+from textfeatureinfo.textfeatureinfo import remove_stop_words
 ```
 
-6. You can use the functions as below:
+- You can use the functions as below:
 
 ```bash
->>> count_punc("Hello, World!")
->>> avg_word_len("Hello, World!")
->>> perc_cap_words("THIS is a SPAm MESSage.")
->>> remove_stop_words("Tomorrow is a big day!")
+count_punc("Hello, World!")
+avg_word_len("Hello, World!")
+perc_cap_words("THIS is a SPAm MESSage.")
+remove_stop_words("Tomorrow is a big day!")
 ```
 
 ## Contributing
