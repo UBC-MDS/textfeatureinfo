@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.8 (2022-01-29)
+### Fix
+* Removed codecov badge since it did not work ([`6d55ace`](https://github.com/UBC-MDS/textfeatureinfo/commit/6d55ace1578cd611ae091e2561fba6193bc0b619))
+
 ## v0.2.7 (2022-01-28)
 ### Fix
 * Removed the numbers from usage ([`d81d8ae`](https://github.com/UBC-MDS/textfeatureinfo/commit/d81d8aed44a0b95c61fabb057f9d1f7d7a073192))

@@ -1,7 +1,7 @@
 
 [tool.poetry]
 name = "textfeatureinfo"
-version = "0.2.7"
+version = "0.2.8"
 description = "Package to extract interesting details about text."
 authors = ["Kiran, Jacqueline, Paniz, Lynn"]
 license = "MIT"
